@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+                // "/var/lib/gems/2.7.0/gems/ceedling-0.31.0/vendor/unity/src/",
+                // "/var/lib/gems/2.7.0/gems/ceedling-0.31.0/vendor/cmock/src/"
+            ],
+            "defines": [
+                "STM32F303xE",
+                "TEST"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Windows",
+            "includePath": [
+                "${workspaceFolder}/**"
+                // "C:/Apps/Ruby30-x64/lib/ruby/gems/3.0.0/gems/ceedling-0.31.1/vendor/unity/src/",
+                // "C:/Apps/Ruby30-x64/lib/ruby/gems/3.0.0/gems/ceedling-0.31.1/vendor/cmock/src/"
+            ],
+            "defines": [
+                "STM32F303xE",
+                "TEST"
+            ],
+            "compilerPath": "C:/Apps/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
