@@ -1,10 +1,10 @@
 {
-    "unityExplorer.preBuildCommand": "Unity Test Explorer Debug",
     "unityExplorer.testSourceFileRegex": "\\w+test.c$",
     "unityExplorer.testSourceFolder": "test",
-    "unityExplorer.testCaseRegex": "TEST\\(\\w+,\\s(\\w+)\\)",
-    "unityExplorer.testExecutableArgs": "-v",
+    // "unityExplorer.testCaseRegex": "TEST\\(\\w+,\\s(\\w+)\\)",
     "unityExplorer.testExecutableRegex": "build/exe/$1.exe",
     "unityExplorer.unitUnderTestFileRegex": "^(?!.*test)(\\w+\\.[ch])$",
-    "unityExplorer.testBuildCwdPath": "build/exe"
+    "unityExplorer.testBuildCwdPath": "build",
+    "unityExplorer.debugConfiguration": "Unity Test Explorer Debug",
+    "unityExplorer.testCaseRegex": "void\\s+(test_.*)\\s*\\(.*\\)"
 }
