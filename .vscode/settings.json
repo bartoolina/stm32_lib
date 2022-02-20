@@ -6,5 +6,9 @@
     "unityExplorer.unitUnderTestFileRegex": "^(?!.*test)(\\w+\\.[ch])$",
     "unityExplorer.testBuildCwdPath": "build",
     "unityExplorer.debugConfiguration": "Unity Test Explorer Debug",
-    "unityExplorer.testCaseRegex": "void\\s+(test_.*)\\s*\\(.*\\)"
+    "unityExplorer.testCaseRegex": "void\\s+(test_.*)\\s*\\(.*\\)",
+    "files.associations": {
+        "*.c": "c",
+        "*.h": "c"
+    }
 }
