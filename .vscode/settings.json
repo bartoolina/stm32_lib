@@ -10,5 +10,6 @@
     "files.associations": {
         "*.c": "c",
         "*.h": "c"
-    }
+    },
+    "cmake.configureOnOpen": true
 }
